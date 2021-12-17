@@ -228,7 +228,7 @@ window.addEventListener(`load`, () => {
     document.querySelector(`.loader`).addEventListener("click", () => {
         document.querySelector(`.loader`).classList.add(`fade`);
         showNavBar();
-        // openFullscreen();
+        openFullscreen();
     });
     document.querySelector(`.loader`).addEventListener("click", showPage);
 });
