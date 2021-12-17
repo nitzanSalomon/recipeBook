@@ -39,22 +39,18 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0D635F;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #E8E8E8;
-    font-size: 2em;
     font-weight: 800;
-}
-
-.loader > img {
-    width: 50vw;
+    background: #0D635F;
+    font-size: 2.6em;
 }
 
 .loader.fade {
-    animation: fadeOut 1s 2s forwards;
+    animation: fadeOut 1s forwards;
 }
 
 @keyframes fadeOut {
@@ -335,9 +331,9 @@ html, body {
 
 .recipesScrollContainer {
     position: absolute;
-    top: 12vh;
+    top: 11vh;
     overflow-y: scroll;
-    height: 67vh;
+    height: 75vh;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -375,7 +371,7 @@ html, body {
     position: absolute;
     top: 10vh;
     overflow-y: scroll;
-    height: 77vh;
+    height: 90vh;
     -webkit-user-select: text;
     font-size: 1.2em;
 }
@@ -410,7 +406,7 @@ html, body {
 .ingredientContainer, .preparationContainer {
     display: flex;
     align-items: start;
-    padding: 1em 0.6em;
+    padding: 0.6em;
 }
 
 .ingredientCheckPic, .preparationCheckPic {
@@ -429,7 +425,7 @@ html, body {
     color: rgb(88, 88, 88);
     text-align: center;
     direction: rtl;
-    width: 35vw;
+    width: 31vw;
     padding: 0 0.1em;
 }
 
@@ -446,10 +442,6 @@ html, body {
 .quantity, .difficulty {
     border-left: solid rgb(158, 157, 157) 0.13em;
     width: 31vw;
-}
-
-.quantity {
-    width: 28vw;
 }
 
 .headerContainer {
