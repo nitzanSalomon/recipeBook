@@ -388,7 +388,7 @@ html, body {
 
 .recipeContentPic {
     width: 100vw;
-    height: 35vh;
+    height: 40vh;
 }
 .recipeContentDescription {
     font-weight: 200;
@@ -406,7 +406,7 @@ html, body {
 .ingredientContainer, .preparationContainer {
     display: flex;
     align-items: start;
-    padding: 0.6em;
+    padding: 0.8em 0.6em;
 }
 
 .ingredientCheckPic, .preparationCheckPic {
